@@ -1,5 +1,5 @@
 # NHL-game-winner-predictor
-This project takes the advanced statistics from [Natural Stat Trick](https://www.naturalstattrick.com) and gets fed into scikit-learns randomforestclassifier to predict the winner of NHL games.
+This project leverages advanced statistics sourced from [Natural Stat Trick](https://www.naturalstattrick.com), utilizing scikit-learn's RandomForestClassifier to forecast the outcomes of NHL games.
 
 An API call is made to google cloud API to save the results and all the other advanced statistics to a [Google Sheet](https://docs.google.com/spreadsheets/d/1RPnWiBpVTMGZOeH4-P1Z44eDeApi5YLXYUU9X3kAj4Y/edit?usp=sharing).
 
