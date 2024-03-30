@@ -10,7 +10,7 @@ The scripts are ran on a daily schedule hosted by AWS Lambda functions using Doc
 - `get_winners.py` is scheduled to run at 11:00pm PST everyday.
 
 If you'd like to run the scripts your selves, you must initiate your own Google Sheet to replace `SHEET_ID` and `SHEET_NAME`.
-I also recommend also removing the sheet updating methods as those will require JSON key to run, and instead loading the results into a CSV file.
+I also recommend also removing the sheet updating methods as those will require JSON key to run (you could also initiate your own Google Cloud API keys, to store your results), and instead loading the results into a CSV file.
 
 # Dependencies
 - pandas
